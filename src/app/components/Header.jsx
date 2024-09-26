@@ -10,7 +10,7 @@ const Header = () => {
 			<div className="max-sm:flex justify-between items-center">
 				<div className="flex justify-between items-center">
 					<div className="flex gap-2 items-center">
-						<div className="md:p-2 p-1 rounded-lg  bg-dark text-white">
+						<div className="md:p-2 p-1 rounded-lg bg-dark text-white">
 							<CodeXml strokeWidth={3} />
 						</div>
 						<h1 className="font-semibold tracking-wide font-montserrat text-base lg:text-lg">
@@ -29,13 +29,16 @@ const Header = () => {
 				</div>
 				<div
 					onClick={() => setMenu(!isMenu)}
-					className="sm:hidden cursor-pointer transition-all"
+					className="sm:hidden cursor-pointer"
 				>
 					{!isMenu ? <Menu strokeWidth={2} /> : <X strokeWidth={2} />}
 				</div>
 			</div>
 			{isMenu && (
-				<Navbar className="flex-col py-2 text-center" />
+				<div className="sm:hidden py-4 text-center">
+					<Navbar className="flex-col mb-8" />
+					<Button type="link" href="/" text="Resume" variant="dark" />
+				</div>
 			)}
 		</header>
 	);

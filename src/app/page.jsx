@@ -1,10 +1,11 @@
-import { Hero, Footer } from '.';
+import { Hero, Footer, About, Projects } from '.';
 
 export default function Home() {
 	return (
 		<main className="max-w-[1569px]">
 			<Hero />
-			<section>hello</section>
+			<About />
+			<Projects />
 			<Footer />
 		</main>
 	);

@@ -8,7 +8,7 @@ const Footer = () => {
 	return (
 		<footer className="grid gap-20 md:gap-32 lg:gap-40 w-11/12 mx-auto">
 			<div className="flex max-sm:flex-col max-sm:justify-center gap-6 items-center justify-between">
-				<h2 className="font-bold max-sm:text-center text-xl sm:text-[22px] md:text-2xl lg:text-3xl">
+				<h2 className="font-bold max-sm:text-center text-2xl lg:text-3xl">
 					Excited to Work on Your Project? <br />
 					Reach Out to Me Today!
 				</h2>

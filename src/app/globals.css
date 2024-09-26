@@ -24,6 +24,10 @@ body {
 	font: normal 400 'Plus Jakarta Sans', sans-serif;
 }
 
+section + section {
+	@apply py-20 md:py-32 lg:py-40;
+}
+
 .montserrat {
 	font: normal 400 'Montserrat', sans-serif;
 }
