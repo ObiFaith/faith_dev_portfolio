@@ -1,9 +1,7 @@
 const About = () => {
 	return (
 		<section id="about" className="bg-primary text-dark">
-			<h2 className="section-heading">
-				About Me
-			</h2>
+			<h2 className="section-heading font-montserrat">About Me</h2>
 			<div className="w-11/12 text-sm lg:text-base mx-auto md:gap-8 grid gap-3 md:grid-cols-2">
 				<div className="grid gap-3 md:gap-5">
 					<p>
@@ -47,13 +45,6 @@ const About = () => {
 							the power of community and the value of continuous
 							learning.
 						</strong>
-					</p>
-					<p>
-						When I'm not coding, you can find me indulging in
-						self-development and business books, watching
-						documentaries or crime movies, or enjoying a game of
-						table tennis. These hobbies help me maintain a balanced
-						life, keeping me refreshed and motivated in my work.
 					</p>
 					<p>
 						I'm always{' '}

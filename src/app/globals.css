@@ -32,14 +32,15 @@ section + section {
 	@apply py-10 md:py-20;
 }
 
+.montserrat {
+	font: normal 400 'Montserrat', sans-serif;
+}
+
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
 	}
-	.montserrat {
-		font: normal 400 'Montserrat', sans-serif;
-	}
-	.second-heading {
-		@apply text-center font-montserrat text-2xl md:text-3xl lg:text-4xl font-bold pb-8;
+	.section-heading {
+		@apply text-center text-2xl md:text-3xl lg:text-4xl font-bold pb-8;
 	}
 }
