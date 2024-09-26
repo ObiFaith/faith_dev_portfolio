@@ -51,6 +51,12 @@ const About = () => {
 					frontend development and sharpened my skills in delivering
 					seamless digital experiences.
 				</p>
+				<p>
+					I'm always looking forward to the next challenge—whether
+					it's improving a product, mentoring someone new, or just
+					exploring new technologies.{' '}
+					<strong>Let's build something amazing together!</strong>
+				</p>
 			</div>
 		</section>
 	);

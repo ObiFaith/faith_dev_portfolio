@@ -19,12 +19,7 @@ const Header = () => {
 					</div>
 					<Navbar className="max-sm:hidden" />
 					<div className="max-sm:hidden">
-						<Button
-							type="link"
-							href="/"
-							text="Resume"
-							variant="dark"
-						/>
+						<Button href="/" text="Resume" variant="dark" />
 					</div>
 				</div>
 				<div
@@ -37,7 +32,7 @@ const Header = () => {
 			{isMenu && (
 				<div className="sm:hidden py-4 text-center">
 					<Navbar className="flex-col mb-8" />
-					<Button type="link" href="/" text="Resume" variant="dark" />
+					<Button href="/" text="Resume" variant="dark" />
 				</div>
 			)}
 		</header>

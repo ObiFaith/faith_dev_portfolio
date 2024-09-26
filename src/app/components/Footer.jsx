@@ -14,7 +14,6 @@ const Footer = () => {
 				</h2>
 				<Button
 					text="Send a DM"
-					type="link"
 					variant="primary"
 					href="mailto:obifth@gmail.com?subject=Project%20Booking%20Request&body=Hello,%20I%20would%20like%20to%20book%20a%20job%20for%20a%20project.%20Here%20are%20the%20details:%0A%0A-%20Project%20Description:%0A- %20Requirements:%0A- %20Timeline:%0A- %20Budget:%0A%0AThank%20you!"
 				/>
