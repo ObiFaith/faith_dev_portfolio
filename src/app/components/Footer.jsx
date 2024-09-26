@@ -20,7 +20,7 @@ const Footer = () => {
 				/>
 			</div>
 			<div className="rounded-2xl pb-10">
-				<div className="flex items-center max-sm:flex-col gap-5 justify-between">
+				<div className="flex items-center max-sm:flex-col gap-6 justify-between">
 					<Logo />
 					<p className="text-sm max-sm:hidden">Developed by me</p>
 					<div className="flex gap-4">
@@ -44,7 +44,7 @@ const Footer = () => {
 						</Link>
 					</div>
 				</div>
-				<p className="text-center pt-5 text-xs sm:hidden">
+				<p className="text-center pt-8 text-xs sm:hidden">
 					Developed by me
 				</p>
 			</div>
