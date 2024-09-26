@@ -16,7 +16,7 @@ const Hero = () => {
 									Faith Obi
 								</span>
 							</h1>
-							<p className="text-lg text-balance">
+							<p className="lg:text-lg text-base text-balance">
 								I'm a Frontend Developer who transforms design
 								ideas into beautifully functional web
 								interfaces, focused on user experience.
