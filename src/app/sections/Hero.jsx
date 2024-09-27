@@ -8,8 +8,8 @@ const Hero = () => {
 			<div className="min-h-[85svh] relative mx-auto">
 				<div className="w-11/12 mx-auto">
 					<Header />
-					<div className="grid gap-6 pt-10 items-center md:grid-cols-2">
-						<div className="grid gap-4 max-md:text-center">
+					<div className="grid gap-6 md:w-11/12 mx-auto lg:w-full pt-10 items-center lg:grid-cols-2">
+						<div className="grid gap-4 max-lg:text-center">
 							<h1>
 								<span>Hi, my name is</span> <br />
 								<span className="text-primary font-bold text-6xl">
@@ -22,9 +22,12 @@ const Hero = () => {
 								interfaces, focused on user experience.
 							</p>
 						</div>
-						{/* <div className="">
-							<Image width={320} src={profile} alt='My profile picture' />
-						</div> */}
+						<div
+							style={{
+								background: `url(${profile.src}) no-repeat top center/cover`,
+							}}
+							className="max-sm:min-h-[550px] sm:min-h-[640px] md:min-h-[800px] lg:min-h-[600px] rounded-lg"
+						></div>
 					</div>
 					{/* Skill Icons */}
 					<div className=""></div>
