@@ -1,6 +1,6 @@
 import { Header } from '..';
 import Image from 'next/image';
-import { gradient, left_gradient } from '/public/assets';
+import { gradient, left_gradient, profile } from '/public/assets';
 
 const Hero = () => {
 	return (
@@ -22,7 +22,9 @@ const Hero = () => {
 								interfaces, focused on user experience.
 							</p>
 						</div>
-						<div className="">Hello</div>
+						{/* <div className="">
+							<Image width={320} src={profile} alt='My profile picture' />
+						</div> */}
 					</div>
 					{/* Skill Icons */}
 					<div className=""></div>

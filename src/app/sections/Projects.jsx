@@ -1,6 +1,13 @@
 import { Card } from '..';
 import Image from 'next/image';
-import { right_gradient, restApi, ecommerce, tipCalc } from '/public/assets';
+import {
+	right_gradient,
+	restApi,
+	ecommerce,
+	tipCalc,
+	delve,
+	kodeCamp,
+} from '/public/assets';
 
 const Projects = () => {
 	return (
@@ -8,6 +15,22 @@ const Projects = () => {
 			<div className="w-11/12 mx-auto">
 				<h2 className="section-heading font-montserrat">Projects</h2>
 				<div className="lg:grid max-lg:flex max-lg:*:w-full flex-wrap gap-6 lg:grid-cols-9 *:gap-6 lg:grid-rows-[500px_500px]">
+					<div className="lg:col-span-4">
+						<Card
+							bgImg={kodeCamp}
+							title="KodeCamp X"
+							tools={['HTML', 'CSS', 'react']}
+							demo="https://x-project-fe-ten.vercel.app/"
+						/>
+					</div>
+					<div className="lg:col-span-5">
+						<Card
+							bgImg={delve}
+							title="Delve: A Language Learning AI Game"
+							demo="https://delve.fun/"
+							tools={['HTML', 'CSS', 'react']}
+						/>
+					</div>
 					<div className="lg:col-span-3">
 						<Card
 							bgImg={restApi}
@@ -33,18 +56,6 @@ const Projects = () => {
 							tools={['HTML', 'CSS', 'JavaScript']}
 							demo="https://tip-calculator-app-main-seven-pink.vercel.app/"
 							github="https://github.com/ObiFaith/tip-calculator-app-main"
-						/>
-					</div>
-					<div className="lg:col-span-4">
-						<Card
-							title="Social Media App"
-							tools={['HTML', 'CSS', 'react']}
-						/>
-					</div>
-					<div className="lg:col-span-5">
-						<Card
-							title="Social Media App"
-							tools={['HTML', 'CSS', 'react']}
 						/>
 					</div>
 				</div>

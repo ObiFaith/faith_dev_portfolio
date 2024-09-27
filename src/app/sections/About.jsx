@@ -1,6 +1,6 @@
 const About = () => {
 	return (
-		<section id="about" className="bg-dark text-primary">
+		<section id="about" className="bg-dark text-[#fafafa]">
 			<h2 className="w-11/12 sm:px-6 lg:px-14 mx-auto section-heading font-montserrat">
 				About Me
 			</h2>
