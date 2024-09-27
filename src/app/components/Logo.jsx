@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import { CodeXml } from 'lucide-react';
 
 const Logo = ({ variant }) => {
 	return (
-		<div className="flex gap-2 items-center">
+		<Link href="/" className="flex gap-2 items-center">
 			<div
 				className={`p-2 rounded-lg ${
 					variant === 'dark' ? 'bg-background' : 'bg-foreground'
@@ -24,7 +25,7 @@ const Logo = ({ variant }) => {
 			>
 				Faith Dev
 			</h1>
-		</div>
+		</Link>
 	);
 };
 

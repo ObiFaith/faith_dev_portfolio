@@ -26,7 +26,7 @@ const Hero = () => {
 							style={{
 								background: `url(${profile.src}) no-repeat top center/cover`,
 							}}
-							className="max-sm:min-h-[550px] sm:min-h-[640px] md:min-h-[800px] lg:min-h-[600px] rounded-lg"
+							className="max-sm:min-h-[550px] sm:min-h-[640px] md:min-h-[800px] lg:min-h-[600px] rounded-t-lg"
 						></div>
 					</div>
 					{/* Skill Icons */}
