@@ -14,7 +14,7 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 			className="min-h-full rounded-lg"
 		>
 			<div className="bg-[#121212]/90 rounded-md py-8 px-4 min-h-[500px] grid">
-				<p className="text-lg px-6 lg:px-10 text-center font-semibold tracking-wider">
+				<p className="md:text-lg text-base px-6 lg:px-10 text-center font-semibold tracking-wider">
 					{title}
 				</p>
 				<div className="flex gap-3 self-end items-center justify-between">
@@ -22,7 +22,7 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 						{tools.map((tool, index) => (
 							<span
 								key={index}
-								className="px-2 py-1 max-md:text-sm font-medium md:font-semibold bg-[#1D212D] text-white font-montserrat uppercase rounded-lg"
+								className="px-2 py-1 max-md:text-sm bg-[#1D212D] text-white font-montserrat uppercase rounded-lg"
 							>
 								{tool}
 							</span>

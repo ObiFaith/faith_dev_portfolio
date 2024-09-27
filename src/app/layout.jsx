@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
 				<link
 					rel="icon"
 					type="image/svg+xml"
-					href="/public/icon.jpg"
+					href="/public/tab_icon.jpg"
 				></link>
 			</Head>
 			<body
