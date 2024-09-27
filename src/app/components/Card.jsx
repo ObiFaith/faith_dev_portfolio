@@ -29,18 +29,26 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 						))}
 					</div>
 					<div className="flex gap-1">
-						<Link
-							href={demo}
-							className="p-1 md:p-2 hover:bg-primary bg-foreground rounded-md md:rounded-lg max-sm:size-8"
-						>
-							<ExternalLink className="text-background hover:text-dark" />
-						</Link>
-						<Link
-							href={github}
-							className="p-1 md:p-2 hover:bg-primary bg-foreground rounded-md md:rounded-lg max-sm:size-8"
-						>
-							<Github className="text-background hover:text-dark" />
-						</Link>
+						{demo !== '/' && (
+							<Link
+								target="_blank"
+								rel="noopener noreferrer"
+								href={demo}
+								className="p-1 md:p-2 hover:bg-primary bg-foreground rounded-md md:rounded-lg max-sm:size-8"
+							>
+								<ExternalLink className="text-background hover:text-dark" />
+							</Link>
+						)}
+						{github !== '/' && (
+							<Link
+								target="_blank"
+								rel="noopener noreferrer"
+								href={github}
+								className="p-1 md:p-2 hover:bg-primary bg-foreground rounded-md md:rounded-lg max-sm:size-8"
+							>
+								<Github className="text-background hover:text-dark" />
+							</Link>
+						)}
 					</div>
 				</div>
 			</div>
