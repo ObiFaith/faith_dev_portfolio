@@ -14,7 +14,7 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 			className="min-h-full rounded-lg"
 		>
 			<div className="bg-[#121212]/90 rounded-md py-8 px-4 min-h-[500px] grid">
-				<p className="text-lg text-primary px-6 lg:px-10 text-center font-semibold tracking-wider">
+				<p className="text-lg px-6 lg:px-10 text-center font-semibold tracking-wider">
 					{title}
 				</p>
 				<div className="flex gap-3 self-end items-center justify-between">

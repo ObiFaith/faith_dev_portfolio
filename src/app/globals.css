@@ -41,6 +41,6 @@ section + section {
 		text-wrap: balance;
 	}
 	.section-heading {
-		@apply text-center text-2xl md:text-3xl lg:text-4xl font-bold pb-8;
+		@apply text-center text-[26px] sm:text-3xl lg:text-4xl font-bold pb-8;
 	}
 }
