@@ -22,7 +22,7 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 						{tools.map((tool, index) => (
 							<span
 								key={index}
-								className="px-2 py-1 text-sm bg-[#1D212D] text-white font-montserrat uppercase rounded-lg"
+								className="px-2 py-1 sm:text-sm text-xs bg-[#1D212D] text-white font-montserrat uppercase rounded-lg"
 							>
 								{tool}
 							</span>

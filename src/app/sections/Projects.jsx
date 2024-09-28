@@ -19,7 +19,7 @@ const Projects = () => {
 						<Card
 							bgImg={kodeCamp}
 							title="KodeCamp X"
-							tools={['HTML', 'CSS', 'react']}
+							tools={['ReactJs', 'Tailwind CSS', 'Redux']}
 							demo="https://x-project-fe-ten.vercel.app/"
 						/>
 					</div>
@@ -28,7 +28,13 @@ const Projects = () => {
 							bgImg={delve}
 							title="Delve: A Language Learning AI Game"
 							demo="https://delve.fun/"
-							tools={['HTML', 'CSS', 'react']}
+							tools={[
+								'NextJs',
+								'AI',
+								'ThreeJS',
+								'Tailwind CSS',
+								'Redux',
+							]}
 						/>
 					</div>
 					<div className="lg:col-span-3">

@@ -3,6 +3,7 @@ import Link from 'next/link';
 const Button = ({ text, variant, href }) => {
 	return (
 		<Link
+			target="_blank"
 			href={href}
 			className={`font-montserrat delay-100 font-semibold text-sm sm:text-base rounded-md transition-all py-2.5 px-8 ${
 				variant == 'primary'
