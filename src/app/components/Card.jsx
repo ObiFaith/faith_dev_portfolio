@@ -11,10 +11,10 @@ const Card = ({ title, tools, bgImg, github = '/', demo = '/' }) => {
 	return (
 		<div
 			style={{ background: `url(${img}) no-repeat center/cover` }}
-			className="min-h-full rounded-lg hover:shadow-lg"
+			className="min-h-96 md:min-h-[500px] rounded-lg hover:shadow-lg grid items-end"
 		>
-			<div className="bg-[#121212]/90 rounded-md py-8 px-4 min-h-[500px] grid">
-				<p className="text-lg md:text-xl text-white px-6 lg:px-10 text-center font-semibold tracking-wider">
+			<div className="backdrop-blur-sm bg-[#121212]/40 py-5 px-3 md:py-7 md:px-5">
+				<p className="text-lg md:text-xl text-white pb-4 font-semibold tracking-wider">
 					{title}
 				</p>
 				<div className="flex gap-3 self-end items-center justify-between">
