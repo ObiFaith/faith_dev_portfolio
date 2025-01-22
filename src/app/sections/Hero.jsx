@@ -17,7 +17,7 @@ const Hero = () => {
 								</span>
 							</h1>
 							<p className="lg:text-lg text-base text-balance">
-								I'm a Software Developer who transforms design
+								I'm a Frontend Developer who transforms design
 								ideas into beautifully functional web
 								interfaces, focused on user experience.
 							</p>
