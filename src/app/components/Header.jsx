@@ -21,7 +21,7 @@ const Header = () => {
 					<Navbar className="max-sm:hidden" />
 					<div className="max-sm:hidden">
 						<Button
-							href="https://drive.google.com/file/d/1CyK_wihxiRwgGriEnJX-rBHC_fsmdlMz/view?usp=sharing"
+							href="https://drive.google.com/file/d/1cfW_dY1ghHUTCqb05Zf2Kluv4yCS0xwR/view?usp=sharing"
 							text="Resume"
 							variant="dark"
 						/>
