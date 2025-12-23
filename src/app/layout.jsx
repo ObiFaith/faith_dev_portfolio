@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 export const metadata = {
 	title: 'Faith Obi | Frontend Web Developer',
 	description:
-		"I'm a Frontend Developer who transforms design ideas into beautifully functional web interfaces, focused on user experience.",
+		"Full Stack Developer experienced in React, Next.js, JavaScript, TypeScript, Node.js, NestJS, Python, and FastAPI, building scalable web applications, RESTful APIs, microservices, and secure authentication systems with cloud integration.",
 };
 
 export default function RootLayout({ children }) {
