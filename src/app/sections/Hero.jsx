@@ -17,9 +17,8 @@ const Hero = () => {
 								</span>
 							</h1>
 							<p className="lg:text-lg text-base text-balance">
-								I'm a Frontend Developer who transforms design
-								ideas into beautifully functional web
-								interfaces, focused on user experience.
+								I build scalable, secure web applications from idea to production.<br/>
+								Full-Stack Web Developer specializing in Next.js, TypeScript, NestJS, and Python, with experience building payment systems, APIs, microservices, and AI-powered tools.
 							</p>
 							<div className="max-lg:hidden">
 								<Socials />
