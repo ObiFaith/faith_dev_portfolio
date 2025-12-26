@@ -66,7 +66,7 @@ const Header = () => {
 						</ul>
 					</nav>
 					<Button
-						href="https://drive.google.com/file/d/1CyK_wihxiRwgGriEnJX-rBHC_fsmdlMz/view?usp=sharing"
+						href="https://drive.google.com/file/d/1aP0M4bWOb3hh0RddYlJaERsnO5239fJw"
 						text="Resume"
 						variant="dark"
 					/>
